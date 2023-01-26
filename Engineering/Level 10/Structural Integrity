@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Engineering Mission: Level 10</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .data {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid black;
+      width: 300px;
+      text-align: center;
+    }
+    /* Add a media query for mobile devices */
+    @media only screen and (max-width: 600px) {
+      .data {
+        width: 100%;
+      }
+    }
+    .data h2 {
+      margin-bottom: 10px;
+    }
+    .data p {
+      margin-bottom: 10px;
+    }
+    .correct {
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body>
+  <h1>Engineering Mission: Level 10</h1>
+  <div class="container">
+    <div class="data">
+      <h2>Objective</h2>
+      <p>Calculate the structural stress on a metal rod in a truss bridge.</p>
+    </div>
+    <div class="data">
+      <h2>Diagnostics Data</h2>
+      <p>The force applied to the rod is F = 2 x 10^5 N</p>
+      <p>The rod has a cross-sectional area of A = 2 x 10^-4 m^2</p>
+      <p>The rod is made of steel with a Young's modulus of E = 2 x 10^11 Pa</p>
+      <p>The rod has a length of L = 200 m</p>
+    </div>
+    <div class="data">
+      <h2>Possible Solutions</h2>
+      <p>1 x 10^7 Pa</p>
+      <p>2 x 10^7 Pa</p>
+      <p>4 x 10^7 Pa</p>
+      <p>8 x 10^7 Pa</p>
+    </div>
+    <div class="data correct">
+      <h2>Correct Answer</h2>
+      <p>2 x 10^7 Pa</p>
+    </div>
+    <div class="data">
+      <h2>Explanation</h2>
+      <p>The structural stress on a metal rod can be calculated using the formula σ = F/A. Plugging in the given values for force, area, and the Young's modulus, the correct answer is 2 x 10^7 Pa</p>
+    </div>
+  </div>
+</body>
+</html>
